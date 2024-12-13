@@ -38,8 +38,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/buttonConvertir"
         app:layout_constraintEnd_toEndOf="@+id/editTextMultiOriginal"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextMultiOriginal"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMultiOriginal" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMultiOriginal"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextMultiOriginal"
@@ -53,6 +55,21 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintVertical_bias="0.131" />
+
+    <EditText
+        android:id="@+id/editTextNumberDesplazamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Valor de desplazamiento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextMultiOriginal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextMultiOriginal"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMultiOriginal"
+        app:layout_constraintVertical_bias="0.011" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
