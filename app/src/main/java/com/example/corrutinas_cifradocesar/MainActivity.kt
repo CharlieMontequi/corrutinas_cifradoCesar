@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         // dar a los componenetes las referencias
 
+        // no logro que se vea la pogress bar, por durancio o por el tipo elegido????
          textoCifrado = findViewById(R.id.textViewTextoConvertido)
         val botonConvertir = findViewById<Button>(R.id.buttonConvertir)
         textoOringinal = findViewById(R.id.editTextMultiOriginal)
